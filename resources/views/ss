@@ -1,0 +1,41 @@
+
+.DeviceTable {
+  text-align: center;
+}
+.DeviceInfoTable{
+margin-bottom: 0px;
+ 
+}
+.table>:not(caption)>*>* {
+  padding: 0.1rem 0.1rem;
+  padding-top: 0.3rem;
+  padding-right: 0.5rem;
+  padding-bottom: 0.3rem;
+  padding-left: 0.5rem;
+  color: var(--bs-table-color-state,var(--bs-table-color-type,var(--bs-table-color)));
+  background-color: var(--bs-table-bg);
+  border-bottom-width: var(--bs-border-width);
+  box-shadow: inset 0 0 0 9999px var(--bs-table-bg-state,var(--bs-table-bg-type,var(--bs-table-accent-bg)));
+}
+/* border-color: #ebeef4;
+background-color: #fff;
+color: #798eb3;
+padding: 15px; */
+
+.DeviceInfo td {
+ border-bottom-color:  #ebeef4;
+ border-bottom-width: thin;
+ font: 200;
+ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ font-size:medium;
+ font-weight:500;
+ font-weight:100;
+}
+.device-font {
+  font: 200;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size:xx-large;
+  font-weight:500;
+  font-weight:100;
+ 
+}
