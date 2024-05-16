@@ -1,7 +1,7 @@
 
 function update_location(){
   $.ajax({
-    url:  'https://maps.googleapis.com/maps/api/geocode/json?latlng='+latitude+','+longitude+'&key=AIzaSyCjYhtM2Uchr6m8BuU5hBFlTteFeZrHUWA',
+    url:  'https://maps.googleapis.com/maps/api/geocode/json?latlng='+latitude+','+longitude+'&key=YOUR_API_KEY',
     method: "Get",
     processData : false,
     dataType : 'json',
